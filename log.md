@@ -250,14 +250,19 @@ _____
 
 _____
 
-### Day 0: January 23, 2022
-#### Part 13
 
-**Today's Progress:** Continued through [MITx Video: ]()
+### Day 1: January 24, 2022
+I didn't do anything today. Which is a bummer, but I was hanging out with Jaylin and his friends and chatting.
 
-**Thoughts:** 
 
-**Anything I learned:** 
+### Day 2: January 25, 2022.
+
+**Today's Progress:** Today I restarted CS50. I skipped around, but it was enjoyable to rewatch.
+I finished hello program for cs50 week 1, but now I still have to watch the video and do mario and cash.
+
+**Thoughts:** I was also blown away by the CS50 video player
+
+**Anything I learned:** I learned about github codespaces, which seems like an absoultely killer process.
 
 **Link to work:**
 
