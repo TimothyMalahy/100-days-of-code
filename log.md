@@ -269,3 +269,8 @@ I finished hello program for cs50 week 1, but now I still have to watch the vide
 **Links to study/review:**
 
 **Questions to peruse/ask:**
+
+
+### Day 3: January 26, 2022
+
+**today's progress** continued a bit of CS50 started the mario less comfortable and started to work through the loops and get the variables queued up. Utilizing debug50... Looking forward to python parts :)
