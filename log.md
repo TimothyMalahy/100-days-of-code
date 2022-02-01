@@ -274,3 +274,62 @@ I finished hello program for cs50 week 1, but now I still have to watch the vide
 ### Day 3: January 26, 2022
 
 **today's progress** continued a bit of CS50 started the mario less comfortable and started to work through the loops and get the variables queued up. Utilizing debug50... Looking forward to python parts :)
+
+
+### Day 5: January 28, 2022
+
+**today's progress:** it's 3 AM and I just spent 40 minutes or so on CS50x's mario less comfortable. I think I definitely need to just do this in the morning since I have a horrible sleep cycle and when I get to work I don't work on my own personal things. It's better to just do it at home I think.
+
+### Day 6: January 29, 2022
+
+**today's progress:** It's 5:30 AM. I'm going to watch a bit of CS50 lecture, but I also contributed to a tkinter program for a calculator which was a nice warm up to the day. Helped out a bit on reddit comments related to django and pandas.
+
+**thoughts:** Today was good. I was a bit stressed this morning and frustrated with the dog and animals, but programming helped me forget about some of those.
+
+**Links to work:** [Calculator (mine) PR](https://github.com/TimothyMalahy/Fluent-Python-Calculator/tree/main)
+
+[Calculator source repo](https://github.com/HuyHung1408/Fluent-Python-Calculator)
+
+**Anything I learned:** 
+
+Week 2 of CS50 covers the arrays, but it also showed how the make function is implementing the clang function (C lang) and how it defaults to produce an a.out, but then clang -o hello hello.c will make a file called "hello"
+
+"linker command" is an error because the compiler doesn't know about the get_string function. So you add in a new argument. 
+> clang -o hello hello.c -lcs50
+This links in the cs50 that is included into the main function.
+
+> make is an automation of the clang command
+
+When you compile your code, your computer is doing 4 things.
+1. Preprocessing code --> This is the #include <cs50.h> --> This is telling the compiler to find the files on the harddrive and teaching the compiler about the string, exactly like the prototype of the function, except its a whole file
+2. compiling code --> Convert the code to assembly language
+3. assembling code --> Converts the assembly language into machine code which is 0s and 1s
+4. linking code --> Links all the prepocessed, compiled, assembled, packages into 1 singular file which is called "a.out" or "hello"
+
+
+### Day 7: January 30, 2022
+
+**today's progress:** did some CS50 in the middle of the day.
+
+**Anything I learned:** Null is a sentinel character and it helps delineate where one string ends and the next one begins. You use the symbol "\0" which is 8 "0" bits, or one byte full of 0 bits. So to store a word like "Hi!" uses 4 bytes. H, I, !, and "nul"
+In C you can see the char-array with printing more characters than it has. For example
+> string s ="HI!";
+> printf("%i %i %i %i\n", s[0], s[1], s[2], s[3]);
+
+This outputs "72, 73, 33, 0" <-- ascii number of the characters and null character...
+
+the 'void' in int main(void) is the way to tell the computer that the programs we've written do not take command line arguments.
+
+int main(int argc, str argv[])
+- argc is the count of how many words there are as an int
+- the argv will make an array of all the arguments
+
+For error catching and exiting the program, you should return a non-zero value.
+If it does work you should return 0.
+- main function is already doing this automatically.
+
+### Day 8: January 31, 2022
+
+**today's progress:** finished CS50's substitution for week 2. Kicked my ass, but it was very rewarding.
+
+**Anything I learned:** I learned about segmentation faults related to C arguments. I also learned about a way to continuously add characters to arrays, which could be used to compare against the ciphered array.
